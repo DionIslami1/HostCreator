@@ -1,0 +1,235 @@
+.website-page .bring-ideas{
+    width: 100%;
+    margin: 2.5% 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .bring-ideas-img{
+        content: url(../../../../assets/images/Webiste/bringIdeas-img.png);
+        height: auto;
+        width: 40%;
+    }
+    .bring-ideas-back{
+        width: 40%;
+        height: 70%;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        position: absolute;
+        top: auto;
+        left: 0;
+        border-radius: 0px 25px 25px 0px;
+        z-index: -1;
+    }
+
+    .bring-ideas-content{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38%;
+        h6{
+            font-size: 27px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 2.5%;
+        }
+        p{
+            font-size: 19px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 2.5%;
+        }
+
+        .bring-ideas-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 1430px) {
+    .website-page .bring-ideas{
+        margin: 2.5% 0;
+        padding: 0 2.5%;
+        .bring-ideas-img{
+            height: auto;
+            width: 45%;
+        }
+        .bring-ideas-back{
+            width: 45%;
+            height: 70%;
+            top: auto;
+            left: 0;
+    
+        }
+    
+        .bring-ideas-content{
+    
+            width: 45%;
+            h6{
+                font-size: 25px;
+                margin-bottom: 2.5%;
+            }
+            p{
+                font-size: 17px;
+                margin-bottom: 2.5%;
+            }
+    
+            .bring-ideas-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .website-page .bring-ideas{
+        margin: 2.5% 0;
+        padding: 0 2.5%;
+        .bring-ideas-img{
+            height: auto;
+            width: 55%;
+        }
+        .bring-ideas-back{
+            width: 45%;
+            height: 70%;
+            top: auto;
+            left: 0;
+    
+        }
+    
+        .bring-ideas-content{
+            
+            width: 45%;
+            margin-left: 1%;
+            h6{
+                font-size: 23px;
+                margin-bottom: 2.5%;
+            }
+            p{
+                font-size: 15px !important;
+                margin-bottom: 2.5%;
+            }
+    
+            .bring-ideas-btn{
+                width: 150px !important;
+                padding: 12.5px 0px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:809px) {
+    .website-page .bring-ideas{
+        margin: 2.5% 0;
+        padding: 0 5%;
+        flex-direction: column-reverse;
+        .bring-ideas-img{
+            height: auto;
+            width: 82%;
+        }
+        .bring-ideas-back{
+            width: 80%;
+            height: 70%;
+            top: auto;
+            left: 0;
+        }
+        .bring-ideas-content{
+    
+            margin: 5% auto;
+            width: 85%;
+            h6{
+                font-size: 27px;
+                margin-bottom: 2.5%;
+            }
+            p{
+                font-size: 19px;
+                margin-bottom: 2.5%;
+            }
+    
+            .bring-ideas-btn{
+                width: 160px;
+                padding: 12.5px 0px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:500px) {
+    .website-page .bring-ideas{
+        margin: 2.5% 0;
+        padding: 0 2.5%;
+        .bring-ideas-img{
+            height: auto;
+            width: 100%;
+        }
+        .bring-ideas-back{
+            width: 100%;
+            height: 70%;
+            top: auto;
+            left: 0;
+        }
+        .bring-ideas-content{
+            margin: 5% auto;
+            width: 100%;
+            h6{
+                font-size: 25px;
+                margin-bottom: 2.5%;
+                text-align: center;
+            }
+            p{
+                font-size: 17px;
+                margin-bottom: 2.5%;
+                text-align: center;
+            }
+    
+            .bring-ideas-btn{
+                width: 150px;
+                padding: 10px 0px;
+                font-size: 15px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .website-page .bring-ideas{
+        .bring-ideas-content{
+            h6{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16px;
+            }
+            .bring-ideas-btn{
+                font-size: 14px;
+            }
+        }
+    }
+}

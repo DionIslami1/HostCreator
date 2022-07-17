@@ -1,0 +1,440 @@
+.home-page .advanced{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 10%;
+    padding: 0 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    .advanced-back{
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 30px 0 0 30px;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        z-index: -1;
+    }
+
+    .advanced-mainimg{
+        position: relative;
+
+        .advanced-back-img{
+            width: 80%;
+            height: 80%;
+            background:#FFEDFE;
+            border-radius: 30px;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: rotate(20deg);
+        }
+        .advanced-img{
+            content: url(../../../../assets/images/Home/advanced-img.png);
+            width: 100% !important;
+            height: auto;
+        }
+    }
+
+
+
+
+    .advanced-content{
+        width:auto;
+        height:auto;
+        margin-left: 5%;
+        width: 50%;
+
+        .advanced-logoImg{
+            content: url(../../../../assets/images/Home/Advanced-LogoImg.png);
+            height: auto;
+        }
+        
+        .advanced-logoName{
+            color: #0080FF;
+            font-size: 15px;
+            margin-left: 1%;
+        }
+
+        h6{
+            font-family: 'TT-Norms';
+            font-size: 20px;
+            font-weight: 450;
+            margin: 3% 0;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 3%;
+        }
+
+        a{
+            color: #0080FF;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+
+            svg{
+                color: #0080FF;
+                font-size: 23px;
+                margin-left: 1%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1730px) {
+    .home-page .advanced{
+        width: 100%;
+        height: 550px;
+    
+        .advanced-back{
+            width: 75%;
+            height: 100%;
+        }
+    
+        .advanced-img{
+            width: 55%;
+            height: auto;
+        }
+    
+    
+    
+        .advanced-content{
+            margin-left: 5%;
+    
+            .advanced-logoImg{
+                height: auto;
+            }
+            
+            .advanced-logoName{
+                font-size: 17px;
+            }
+    
+            h6{
+                font-size: 22px;
+            }
+    
+            p{
+                font-size: 18px;
+            }
+    
+            a{
+                font-size: 19px;
+    
+                svg{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .home-page .advanced{
+        width: 100%;
+        height: 550px;
+    
+        .advanced-back{
+            width: 75%;
+            height: 100%;
+        }
+    
+        .advanced-img{
+            width: 55%;
+            height: auto;
+        }
+    
+    
+    
+        .advanced-content{
+            margin-left: 10%;
+    
+            .advanced-logoImg{
+                height: auto;
+            }
+            
+            .advanced-logoName{
+                font-size: 15px;
+            }
+    
+            h6{
+                font-size: 20px;
+            }
+    
+            p{
+                font-size: 16px;
+            }
+    
+            a{
+                font-size: 17px;
+    
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1246px) {
+    .home-page .advanced{
+        height: 450px;
+        }
+}
+
+@media (max-width: 1137px) {
+    .home-page .advanced{
+        height: 400px;
+        .advanced-content{
+            .advanced-logoName{
+                font-size: 13px;
+            }
+    
+            h6{
+                font-size: 18px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+    
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .home-page .advanced{
+        height: 350px;
+        .advanced-content{
+            .advanced-logoName{
+                font-size: 12px;
+            }
+    
+            h6{
+                font-size: 17px;
+            }
+    
+            p{
+                font-size: 13px;
+            }
+    
+            a{
+                font-size: 14px;
+    
+                svg{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 809px) {
+    .home-page .advanced{
+        width: 100%;
+        height: fit-content;
+        padding: 0 2.5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    
+        .advanced-back{
+            width: 80%;
+        }
+    
+        .advanced-img{
+            width: 75%;
+            height: auto;
+        }
+        .advanced-content{
+            width: 75%;
+            height:auto;
+            margin-bottom: 3rem;
+            
+            .advanced-logoName{
+                font-size: 15px;
+            }
+    
+            h6{
+                font-size: 20px;
+            }
+    
+            p{
+                font-size: 16px;
+            }
+    
+            a{
+                font-size: 17px;
+    
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 666px) {
+    .home-page .advanced{
+        width: 100%;
+    }
+}
+
+@media (max-width: 503px) {
+    .home-page .advanced{
+        width: 100%;
+        height: 700px;
+        margin-right: 0px;
+        justify-content: center;
+        .advanced-back{
+            width: 100%;
+        }
+    
+        .advanced-img{
+            width: 100%;
+            height: auto;
+            margin-top:0%;
+        }
+    
+    
+    
+        .advanced-content{
+            width: 95%;
+            height:auto;
+            margin-bottom: 1rem;
+    
+            
+            
+            .advanced-logoName{
+                font-size: 15px;
+            }
+    
+            h6{
+                font-size: 20px;
+                text-align: center;
+            }
+    
+            p{
+                font-size: 16px;
+                text-align: center;
+            }
+    
+            a{
+                font-size: 17px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 403px) {
+    .home-page .advanced{
+        height: 650px;
+        margin-top: 20%;
+        margin-right: 0px;
+        .advanced-back{
+            width: 100%;
+        }
+    
+        .advanced-img{
+            width: 95%;
+            height: auto;
+        }
+    
+    
+    
+        .advanced-content{
+            width: 95%;
+            height:auto;
+    
+            
+            
+            .advanced-logoName{
+                font-size: 14px;
+            }
+    
+            h6{
+                font-size: 19px;
+            }
+    
+            p{
+                font-size: 15px;
+            }
+    
+            a{
+                font-size: 16px;
+    
+                svg{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 366px) {
+    .home-page .advanced{
+        height: 600px;
+        padding: 0;
+        margin-top: 20%;
+        .advanced-back{
+            width: 100%;
+        }
+    
+        .advanced-img{
+            width: 95%;
+            height: auto;
+        }
+    
+    
+    
+        .advanced-content{
+            width: 95%;
+            height:auto;
+    
+            
+            
+            .advanced-logoName{
+                font-size: 13px;
+            }
+    
+            h6{
+                font-size: 18px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+    
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+

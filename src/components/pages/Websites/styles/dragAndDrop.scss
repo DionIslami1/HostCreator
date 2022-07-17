@@ -1,0 +1,200 @@
+.website-page .dragand-drop{
+    width: 100%;
+    margin: 2.5% 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .dragand-drop-img{
+        content: url(../../../../assets/images/Webiste/dragand-drop-img.png);
+        width: 45%;
+    }
+    .dragand-drop-back{
+        width: 43%;
+        height: 65%;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        position: absolute;
+        top: auto;
+        left: 0;
+        border-radius: 0px 25px 25px 0px;
+        z-index: -1;
+    }
+    .dragand-drop-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+
+        h6{
+            font-size: 27px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 2.5%;
+        }
+        p{
+            font-size: 19px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 2.5%;
+        }
+
+        .dragand-drop-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1430px) {
+    .website-page .dragand-drop{
+        margin: 2.5% 0;
+        padding: 0 5%;
+    
+        .dragand-drop-img{
+            width: 50%;
+        }
+        .dragand-drop-content{
+            width: 45%;
+    
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 17px;
+            }
+    
+            .dragand-drop-btn{
+                width: 180px;
+                border-radius: 10px;
+                padding: 15px 0px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .website-page .dragand-drop{
+        margin: 2.5% 0;
+        padding: 0 2.5%;
+    
+        .dragand-drop-img{
+            width: 50%;
+        }
+        .dragand-drop-content{
+            width: 45%;
+    
+            h6{
+                font-size: 23px;
+            }
+            p{
+                font-size: 15px;
+            }
+    
+            .dragand-drop-btn{
+                width: 150px;
+                border-radius: 10px;
+                padding: 12.5px 0px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:809px){
+    .website-page .dragand-drop{
+        margin: 2.5% 0;
+        padding: 0 5%;
+        flex-direction: column-reverse;
+    
+        .dragand-drop-img{
+            width: 100%;
+        }
+        .dragand-drop-back{
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+        }
+        .dragand-drop-content{
+            width: 100%;
+            margin: 5% auto;
+    
+            h6{
+                font-size: 27px;
+            }
+            p{
+                font-size: 19px;
+            }
+    
+            .dragand-drop-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width:500px){
+    .website-page .dragand-drop{
+        margin: 2.5% 0;
+        padding: 0 2.5%;
+
+        .dragand-drop-content{
+    
+            h6{
+                font-size: 25px;
+                text-align: center;
+            }
+            p{
+                font-size: 17px;
+                text-align: center;
+            }
+    
+            .dragand-drop-btn{
+                width: 150px;
+                padding: 10px 0px;
+                font-size: 16px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width:360px){
+    .website-page .dragand-drop{
+        .dragand-drop-content{
+    
+            h6{
+                font-size: 24px;
+                text-align: center;
+            }
+            p{
+                font-size: 16px;
+            }
+    
+            .dragand-drop-btn{
+                font-size: 15px;
+            }
+        }
+    }
+}

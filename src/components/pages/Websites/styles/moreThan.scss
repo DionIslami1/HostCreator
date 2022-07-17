@@ -1,0 +1,349 @@
+.website-page .more-than{
+    width:100%;
+    margin: 5% 0;
+    padding: 0 2.5% 0 5%;
+    display: flex;
+    position: relative;
+
+    
+
+    .more-than-left{
+        width: 30%;
+        margin: 0 5% 0 0;
+
+        .left-content{
+            display: flex;
+            flex-direction: column;
+            margin: 0 0% 10% 0;
+
+            h6{
+                font-family: 'TT-Norms';
+                font-size:18px;
+                font-weight: normal;
+                margin: 5% 0;
+            }
+            p{
+                font-family: 'TT-Norms';
+                font-size: 16px;
+                line-height: 2;
+            }
+
+            .left-img{
+                width: 80%;
+                height: auto;
+            }
+            
+        }
+    }
+
+    .more-than-content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: fit-content;
+
+        .contetn-title{
+           width: 550px;
+           margin: 0 15% 10% 12%;
+            h6{
+                font-family: 'TT-Norms';
+                font-size: 27px;
+                font-weight: normal;
+                margin-bottom: 2.5%;
+            }
+
+            p{
+                font-family: 'TT-Norms';
+                font-size: 16px;
+                line-height:2;
+            }
+        }
+        .contetn-mainimg{
+            content: url(../../../../assets/images/Webiste/more-than-mainimg.png);
+            width: 100%;
+            height: auto;
+        }
+
+        .more-than-back{
+            width: 98%;
+            height: 75%;
+            z-index: -1;
+            position: absolute;
+            border-radius: 30px 0 0 30px;
+            background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+            top: 21%;
+            right: -5%;
+        }
+    }
+}
+
+@media (max-width:1400px) {
+    .website-page .more-than{
+        margin: 5% 0;
+        padding: 0 2.5% 0 2.5%;
+        .more-than-left{
+            width: 35%;
+            margin: 0 2.5% 0 0;
+    
+            .left-content{
+                margin: 0 0% 10% 0;
+    
+                h6{
+                    font-size:17px;
+                    margin: 5% 0;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 2;
+                }
+            }
+        }
+        .more-than-content{
+            width: 95%;
+            .contetn-title{
+               width: 550px;
+               margin: 0 15% 20% 12%;
+                h6{
+                    font-size: 25px;
+                    margin-bottom: 2.5%;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            .contetn-mainimg{
+                width: 100%;
+                height: auto;
+            }
+            .more-than-back{
+                width: 98%;
+                height: 65%;
+                top: 31%;
+                right: -5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .website-page .more-than{
+        margin: 5% 0;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    
+        .more-than-left{
+            width: 100%;
+            margin: 1% 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            .left-content{
+                display: flex;
+                flex-direction: column;
+                margin: 5% 2.5%;
+                width: 45%;
+    
+                h6{
+                    font-size:19px;
+                    margin: 5% 0;
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 2;
+                }
+
+                .left-img{
+                    width: 100%;
+                }
+                
+            }
+        }
+    
+        .more-than-content{
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contetn-title{
+               width: 60%;
+               margin: 0 0% 10% 0%;
+                h6{
+                    font-size: 27px;
+                    margin-bottom: 2.5%;
+                    text-align: center;
+                }
+    
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+            .contetn-mainimg{
+                width: 100%;
+                height: auto;
+            }
+    
+            .more-than-back{
+                width: 98%;
+                height: 75%;
+                top: 21%;
+                right: -6%;
+            }
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .website-page .more-than{
+        .more-than-left{
+            .left-content{
+                margin: 5% 2.5%;
+                width: 45%;
+    
+                h6{
+                    font-size:17px;
+                    margin: 5% 0;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 2;
+                }
+            }
+        }
+    
+        .more-than-content{
+            width: 100%;
+            .contetn-title{
+               width: 90%;
+               margin: 0 0% 10% 0%;
+                h6{
+                    font-size: 25px;
+                    margin-bottom: 2.5%;
+                    text-align: center;
+                }
+                p{
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    .website-page .more-than{
+        margin: 5% 0;
+        padding: 0 2.5%;
+    
+        .more-than-left{
+            align-items:center;
+            justify-content: center;
+            .left-content{
+                margin: 5% 0%;
+                width: 60%;
+                
+    
+                h6{
+                    font-size:17px;
+                    margin: 5% 0;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 2;
+                }
+            }
+        }
+    
+        .more-than-content{
+            width: 100%;
+    
+            .contetn-title{
+               width: 100%;
+               margin: 0 0% 10% 0%;
+                h6{
+                    font-size: 25px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+            .contetn-mainimg{
+                width: 100%;
+                height: auto;
+            }
+    
+            .more-than-back{
+                width: 110%;
+                height: 75%;
+                top: 21%;
+                right: -6%;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .website-page .more-than{
+        margin: 5% 0;
+        padding: 0 2.5%;
+    
+        .more-than-left{
+            align-items:center;
+            justify-content: center;
+            .left-content{
+                margin: 5% 0%;
+                width: 100%;
+                
+    
+                h6{
+                    font-size:17px;
+                    margin: 5% 0;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 2;
+                }
+            }
+        }
+    
+        .more-than-content{
+            width: 100%;
+    
+            .contetn-title{
+               width: 100%;
+               margin: 0 0% 10% 0%;
+                h6{
+                    font-size: 23px;
+                    margin-bottom: 2.5%;
+                    text-align: center;
+                }
+    
+                p{
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+            .contetn-mainimg{
+                width: 100%;
+                height: auto;
+            }
+    
+            .more-than-back{
+                width: 110%;
+                height: 75%;
+                top: 21%;
+                right: -6%;
+            }
+        }
+    }
+}

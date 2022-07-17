@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'TT-Norms';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Medium'), url('../../../assets/Fonts/TTNorms/TT\ Norms\ Pro\ Regular.woff') format('woff');
+    }
+
+ .article {
+    width: 100% !important;
+    padding: 0 2.5%!important;
+    font-family:'TT-Norms' !important;
+    margin: 5% 0;
+    
+    .article-title{
+        margin-left: 3%;
+
+        h6{
+            font-size: 25px !important;
+            margin-bottom: 10px !important;
+            font-weight: 560 !important;
+        }
+        p{
+            font-size: 18px !important;
+            line-height: 2 !important;
+        }
+    }
+
+    .article-content{
+        padding: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        
+        .article-box{
+            width:22% !important;
+            margin: 3% 1% !important; 
+            padding: 1.5% !important;
+            border-radius: 10px;
+
+            
+
+            .article-img{
+                height: 40px !important;
+                transform: translateY(3px) !important;
+            }
+            .article-img1{
+                height: 30px !important;
+            }
+            .article-img2{
+                height: 30px !important;
+            }
+            .article-img3{
+                height: 30px !important;
+            }
+
+            .article-back{
+                width: 50px !important;
+                height: 50px !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                border-radius: 5px;
+                transform: rotate(25deg);
+                margin-bottom: 10%;
+            }
+
+            .img-back{
+                background: #FFC7C7;
+            }
+
+            .img-back1{
+                background: #C7FFCE;
+            }
+
+            .img-back2{
+                background: #FFC7FD;
+            }
+
+            .img-back3{
+                background: #C7FFF7;
+            }
+
+            .article-back2{
+                width: 50px !important;
+                height: 50px !important;
+                background: #fff;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                border-radius: 5px;
+                transform: rotate(-25deg);
+                box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+            }
+
+            h6{
+                font-family: 'TT-Norms';
+                font-size: 22px;
+                font-weight: normal;
+                margin-bottom: 3% !important;
+            }
+
+            p{
+                font-family: 'TT-Norms';
+                font-size: 17px;
+                line-height: 2;
+            }
+            &:hover{
+
+                background: #416AFF;
+                h6 {
+                    color: #fff !important;
+                }
+    
+                p {
+                    color: #fff !important;
+                } 
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 1420px) {
+    .article {
+        padding: 0 2.5%!important;
+        margin: 5% 0;
+        
+        .article-title{
+            margin-left: 3%;
+    
+            h6{
+                font-size: 23px !important;
+                margin-bottom: 10px !important;
+            }
+            p{
+                font-size: 17px !important;
+            }
+        }
+    
+        .article-content{
+            
+            .article-box{
+                width:23% !important;
+                margin: 3% 1% !important; 
+                padding: 1.5% !important;
+                h6{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .article {
+        padding: 0 2.5%!important;
+        margin: 5% 0;
+        
+        .article-title{
+            margin-left: 3%;
+    
+            h6{
+                font-size: 22px !important;
+            }
+            p{
+                font-size: 16px !important;
+            }
+        }
+    
+        .article-content{
+            
+            .article-box{
+                width:40% !important;
+                margin: 3% 5% !important; 
+                padding: 3% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .article {
+        padding: 0 2.5%!important;
+        margin: 5% 0;
+        
+        .article-title{
+            margin-left: 3%;
+    
+            h6{
+                font-size: 23px !important;
+                text-align: center;
+            }
+            p{
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    
+        .article-content{
+            
+            .article-box{
+                width:70% !important;
+                margin: 3% 5% !important; 
+                padding: 4% !important;
+    
+                h6{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .article {
+        padding: 0 2.5%!important;
+        margin: 5% 0;
+        
+        .article-title{
+            margin-left: 3%;
+    
+            h6{
+                font-size: 23px !important;
+                text-align: center;
+            }
+            p{
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    
+        .article-content{
+            
+            .article-box{
+                width:90% !important;
+                margin: 3% 5% !important; 
+                padding: 5% !important;
+    
+                h6{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

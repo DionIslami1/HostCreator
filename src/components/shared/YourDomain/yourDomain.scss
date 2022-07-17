@@ -1,0 +1,692 @@
+ .yourdomain {
+    width: 100%;
+    margin: 5% 0;
+    padding: 0 5%;
+    background: url(../../../assets/images/Share/YourDomain/yourdomain-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .yourdomain-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .yourdomain-content{
+            width: 45%;
+            position: relative;
+
+            .yourdomain-content-img1{
+                content: url(../../../assets/images/Share/YourDomain/yourdomain-img1.png);
+                width: 90%;
+                
+            }
+            .yourdomain-content-img1-back{
+                width: 55%;
+                height: 55%;
+                border: 1px solid #FFC7FD;
+                position: absolute;
+                z-index: -1;
+                top: 10%;
+                left: 20%;
+                transform: rotate(0.2turn);
+                border-radius: 15px;
+
+            }
+
+            h6{ 
+                font-family: 'TT-Norms';
+                font-size: 23px;
+                font-weight: 450;
+                margin: 5% 0% 2% 15%;
+                
+            }
+
+            p{
+                font-size: 16px;
+                font-family: 'TT-Norms';
+                line-height: 2;
+                margin: 0% 0% 2% 15%;
+            }
+
+            a{
+                color: #0055FF;
+                font-size: 17px;
+                display: flex;
+                align-items: center;
+                margin: 0% 0% 0% 15%;
+    
+                svg{
+                    color: #0055FF;
+                    font-size: 23px;
+                    margin-left: 1%;
+                }
+            }
+
+        }
+    }
+
+    .yourdomain-content2{
+        width: 45%;
+        margin: 10% 0;
+        position: relative;
+
+        .yourdomain-content-img2{
+            content: url(../../../assets/images/Share/YourDomain/yourdomain-img2.png);
+            width: 90%;
+        }
+
+        .yourdomain-content-img2-back{
+            width: 65%;
+            height: 65%;
+            border: 1px solid #D9FFFB;
+            position: absolute;
+            z-index: -1;
+            top: 0%;
+            left: 20%;
+            transform: rotate(0.05turn);
+            border-radius: 15px;
+
+        }
+
+
+        h6{ 
+            font-family: 'TT-Norms';
+            font-size: 23px;
+            font-weight: 450;
+            margin: 5% 0% 2% 15%;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin: 0% 0% 2% 15%;
+        }
+
+        a{
+            color: #0055FF;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            margin: 0% 0% 0% 15%;
+
+            svg{
+                color: #0055FF;
+                font-size: 23px;
+                margin-left: 1%;
+            }
+        }
+    }
+
+    .yourdomain-content3{
+        width: 45%;
+        margin: 0% 0;
+        margin: 0% 0% 0% 2.5%;
+        position: relative;
+
+        .yourdomain-content-img3{
+            content: url(../../../assets/images/Share/YourDomain/yourdomain-img3.png);
+            width: 90%;
+        }
+
+        .yourdomain-content-img3-back{
+            width: 75%;
+            height: 65%;
+            border: 1px solid #8DC2FF;
+            position: absolute;
+            z-index: -1;
+            top: 0%;
+            left: 15%;
+            transform: rotate(0.45turn);
+            border-radius: 15px;
+
+        }
+
+        h6{ 
+            font-family: 'TT-Norms';
+            font-size: 23px;
+            font-weight: 450;
+            margin: 5% 0% 2% 0%;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin: 0% 10% 2% 0%;
+            
+        }
+
+        a{
+            color: #0055FF;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+
+            svg{
+                color: #0055FF;
+                font-size: 23px;
+                margin-left: 1%;
+            }
+        }
+    }
+
+    .yourdomain-content4{
+        width: 45%;
+        margin: 0% 0;
+        margin: 0% 0% 0% 2.5%;
+        position: relative;
+
+        .yourdomain-content-img4{
+            content: url(../../../assets/images/Share/YourDomain/yourdomain-img4.png);
+            width: 90%;
+        }
+
+        .yourdomain-content-img4-back{
+            width: 75%;
+            height: 65%;
+            border: 1px solid #FFC7FD;
+            position: absolute;
+            z-index: -1;
+            top: 0%;
+            left: 15%;
+            transform: rotate(-0.45turn);
+            border-radius: 15px;
+
+        }
+
+        h6{ 
+            font-family: 'TT-Norms';
+            font-size: 23px;
+            font-weight: 450;
+            margin: 5% 0% 2% 0%;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin: 0% 10% 2% 0%;
+            
+        }
+
+        a{
+            color: #0055FF;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+
+            svg{
+                color: #0055FF;
+                font-size: 23px;
+                margin-left: 1%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1900px) {
+     .yourdomain {
+        .yourdomain-container{
+            .yourdomain-content{
+                h6{ 
+                    font-size: 26px;
+                    
+                }
+    
+                p{
+                    font-size: 19px;
+                }
+    
+                a{
+                    font-size: 20px;
+        
+                    svg{
+                        font-size: 26px;
+                    }
+                }
+    
+            }
+        }
+    
+        .yourdomain-content2{
+            h6{ 
+                font-size: 26px;
+            }
+    
+            p{
+                font-size: 19px;
+            }
+    
+            a{
+                font-size: 20px;
+
+                svg{
+                    font-size: 26px;
+                }
+            }
+        }
+    
+        .yourdomain-content3{
+            h6{ 
+                font-size: 26px;
+            }
+    
+            p{
+                font-size: 19px;
+                
+            }
+    
+            a{
+                font-size: 20px;
+    
+                svg{
+                    font-size: 26px;
+                }
+            }
+        }
+    
+        .yourdomain-content4{
+            h6{ 
+                font-size: 26px;
+            }
+    
+            p{
+                font-size: 19px;
+                
+            }
+    
+            a{
+                font-size: 20px;
+    
+                svg{
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+     .yourdomain {
+        .yourdomain-container{
+            .yourdomain-content{
+                h6{ 
+                    font-size: 25px;
+                    
+                }
+    
+                p{
+                    font-size: 18px;
+                }
+    
+                a{
+                    font-size: 19px;
+        
+                    svg{
+                        font-size: 25px;
+                    }
+                }
+    
+            }
+        }
+    
+        .yourdomain-content2{
+            h6{ 
+                font-size: 25px;
+            }
+    
+            p{
+                font-size: 18px;
+            }
+    
+            a{
+                font-size: 19px;
+
+                svg{
+                    font-size: 25px;
+                }
+            }
+        }
+    
+        .yourdomain-content3{
+            h6{ 
+                font-size: 25px;
+            }
+    
+            p{
+                font-size: 18px;
+                
+            }
+    
+            a{
+                font-size: 19px;
+    
+                svg{
+                    font-size: 25px;
+                }
+            }
+        }
+    
+        .yourdomain-content4{
+            h6{ 
+                font-size: 25px;
+            }
+    
+            p{
+                font-size: 18px;
+                
+            }
+    
+            a{
+                font-size: 19px;
+    
+                svg{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+     .yourdomain {
+        margin: 0;
+        padding: 0;
+        .yourdomain-container{
+            .yourdomain-content{
+                width: 45%;
+    
+                .yourdomain-content-img1{
+                    width: 90%;
+                    
+                }
+                
+    
+                h6{ 
+                    font-size: 21px;
+                    
+                }
+    
+                p{
+                    font-size: 13px;
+                }
+    
+                a{
+                    font-size: 15px;
+        
+                    svg{
+                        font-size: 21px;
+                    }
+                }
+    
+            }
+        }
+    
+        .yourdomain-content2{
+            width: 45%;
+    
+            .yourdomain-content-img2{
+                width: 90%;
+            }
+    
+            h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+    
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    
+        .yourdomain-content3{
+            width: 45%;
+    
+            .yourdomain-content-img3{
+                width: 90%;
+            }
+    
+           h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    
+        .yourdomain-content4{
+            width: 45%;
+    
+            .yourdomain-content-img4{
+                width: 90%;
+            }
+    
+            h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 558px) {
+     .yourdomain {
+        .yourdomain-container{
+            justify-content: center;
+            .yourdomain-content{
+                width: 95%;
+    
+                .yourdomain-content-img1{
+                    width: 90%;
+                    
+                }
+                h6{ 
+                    font-size: 23px;
+                    margin: 5% 0% 2% 0%;
+                }
+    
+                p{
+                    font-size: 16px;
+                    margin: 0% 10% 2% 0%;
+                }
+    
+                a{
+                    font-size: 17px;
+                    margin: 0% 10% 2% 0%;
+                    svg{
+                        font-size: 23px;
+                    }
+                }
+    
+            }
+        }
+    
+        .yourdomain-content2{
+            width: 95%;
+    
+            .yourdomain-content-img2{
+                width: 90%;
+            }
+    
+            h6{ 
+                font-size: 23px;
+                margin: 5% 0% 2% 0%;
+            }
+    
+            p{
+                font-size: 16px;
+                margin: 0% 10% 2% 0%;
+            }
+    
+            a{
+                font-size: 17px;
+                margin: 0% 10% 2% 0%;
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    
+        .yourdomain-content3{
+            width: 95%;
+    
+            .yourdomain-content-img3{
+                width: 90%;
+            }
+    
+            h6{ 
+                font-size: 23px;
+                margin: 5% 0% 2% 0%;
+            }
+    
+            p{
+                font-size: 16px;
+                margin: 0% 10% 2% 0%;
+                
+            }
+    
+            a{
+                font-size: 17px;
+                margin: 0% 0% 2% 15%;
+    
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    
+        .yourdomain-content4{
+            width: 95%;
+            margin: 0% 0% 10% 0%;
+    
+            .yourdomain-content-img4{
+                width: 90%;
+            }
+    
+            h6{ 
+                font-size: 23px;
+            }
+    
+            p{
+                font-size: 16px;
+                
+            }
+    
+            a{
+                font-size: 17px;
+    
+                svg{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+     .yourdomain {
+        .yourdomain-container{
+            .yourdomain-content{
+                h6{ 
+                    font-size: 21px;
+                    
+                }
+    
+                p{
+                    font-size: 14px;
+                }
+    
+                a{
+                    font-size: 15px;
+        
+                    svg{
+                        font-size: 21px;
+                    }
+                }
+    
+            }
+        }
+    
+        .yourdomain-content2{
+            h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+            }
+    
+            a{
+                font-size: 15px;
+
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    
+        .yourdomain-content3{
+            h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+                
+            }
+    
+            a{
+                font-size: 15px;
+    
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    
+        .yourdomain-content4{
+            h6{ 
+                font-size: 21px;
+            }
+    
+            p{
+                font-size: 14px;
+                
+            }
+    
+            a{
+                font-size: 15px;
+    
+                svg{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}

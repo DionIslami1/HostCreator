@@ -1,0 +1,208 @@
+.portfolio-page .create-portfolio{
+    width: 100%;
+    margin: 5% 0;
+    padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .create-portfolio-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38%;
+
+        h6{
+            font-size: 27px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 2.5%;
+        }
+        p{
+            font-size: 19px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 2.5%;
+        }
+        .create-portfolio-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+
+    .create-portfolio-back{
+        width: 50%;
+        height: 92.5%;
+        background: linear-gradient(#FFF8FF, #FFF8FF, #FFF2FF, #FFEDFE, #FFE1FD);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 25px 0 0 25px;
+        z-index: -1;
+    }
+
+    .create-portfolio-img{
+        content: url(../../../../assets/images/Portfolio/CreatePortfolio-img.png);
+        width: 55%;
+        height: auto;
+    }
+}
+
+@media (max-width:1430px) {
+    .portfolio-page .create-portfolio{
+        .create-portfolio-content{
+            width: 38%;
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .create-portfolio-btn{
+                width: 170px;
+                padding: 15px 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:1050px) {
+    .portfolio-page .create-portfolio{
+        padding: 2% 2.5%;
+        .create-portfolio-content{
+            width: 45%;
+            h6{
+                font-size: 23px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .create-portfolio-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width:809px) {
+    .portfolio-page .create-portfolio{
+        margin: 5% 0;
+        padding: 2% 5%;
+        flex-direction: column;
+    
+        .create-portfolio-content{
+            width: 90%;
+            margin: 2.5% 0 10% 0;
+    
+            h6{
+                font-size: 27px;
+            }
+            p{
+                font-size: 19px;
+            }
+            .create-portfolio-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+            }
+        }
+    
+        .create-portfolio-back{
+            width: 100%;
+            height: 57%;
+        }
+    
+        .create-portfolio-img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .portfolio-page .create-portfolio{
+        padding: 2% 2.5%;
+    
+        .create-portfolio-content{
+            width: 100%;
+            margin: 2.5% 0 15% 0;
+    
+            h6{
+                font-size: 25px;
+                text-align: center
+            }
+            p{
+                font-size: 17px;
+                text-align: center
+            }
+            .create-portfolio-btn{
+                width: 170px;
+                padding: 15px 0px;
+                font-size: 16px;
+                margin: 0 auto;
+            }
+        }
+    
+        .create-portfolio-back{
+            width: 100%;
+            height: 51%;
+        }
+    }
+}
+
+@media(max-width:410px) {
+    .portfolio-page .create-portfolio{
+    
+        .create-portfolio-content{
+            margin: 2.5% 0 20% 0;
+    
+            h6{
+                font-size: 23px;
+                text-align: center
+            }
+            p{
+                font-size: 15px;
+                text-align: center
+            }
+            .create-portfolio-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+                margin: 0 auto;
+            }
+        }
+    
+        .create-portfolio-back{
+            width: 100%;
+            height: 45%;
+        }
+    }
+}
+
+@media(max-width:320px) {
+    .portfolio-page .create-portfolio{
+        .create-portfolio-back{
+            height: 35%;
+        }
+    }
+}

@@ -1,0 +1,197 @@
+ .slider2{
+    margin:5% 0;
+    padding:0 5%;
+    margin-bottom:7.5%;
+    h1{
+        font-size: 29px;
+        font-weight: 500;
+        margin:0 70px;
+    }
+    p{
+        font-size: 19px;
+        margin:15px 70px 45px;
+    }
+    .rec-arrow,
+    .rec-arrow-left,
+    .rec-arrow-right{
+        border:1px solid #00268F !important;
+        box-shadow: none !important;
+        background: #fff !important;
+        width: 42.5px !important;
+        height: 42.5px !important;
+        min-width: 42.5px !important;
+        min-height: 42.5px !important;
+        max-width: 42.5px !important;
+        max-height: 42.5px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px !important;
+        color:#00268F !important;
+        &:hover, &:focus, &:active{
+            background: #00268F !important;
+            color:#fff !important;
+        }
+    }
+    .rec-pagination{
+        display: none;
+    }
+    .slider-item{
+        width: 90%;
+        &:hover .img{
+            transform: scale(1.15);
+            -webkit-transform: scale(1.15);
+        }
+    }
+    .img-cont{
+        width: 100%;
+        overflow: hidden;
+        border-radius: 7.5px;
+    }
+    .img{
+        width: 100%;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 17.5px;
+        color:#111;
+        svg{
+            font-size: 22.5px;
+            color:#204DF5;
+            margin-left: 7.5px;
+        }
+    }
+}
+
+@media(max-width:1450px){
+     .slider2{
+        h1{
+            font-size: 25px;
+            margin:0 50px;
+        }
+        p{
+            font-size: 16px;
+            margin:10px 50px 35px;
+        }
+        .rec-arrow,
+        .rec-arrow-left,
+        .rec-arrow-right{
+            width: 35px !important;
+            height: 35px !important;
+            min-width: 35px !important;
+            min-height: 35px !important;
+            max-width: 35px !important;
+            max-height: 35px !important;
+            font-size: 22.5px !important;
+        }
+        .slider-item{
+            width: 92.5%;
+        }
+        a{
+            font-size: 16px;
+            margin-top: 15px;
+            svg{
+                font-size: 20px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+@media(max-width:550px){
+     .slider2{
+        margin:35px 0;
+        padding:0 3.5%;
+        h1{
+            font-size: 22.5px;
+            margin:0 40px;
+        }
+        p{
+            font-size: 16px;
+            margin:10px 40px 30px;
+        }
+        .rec-arrow,
+        .rec-arrow-left,
+        .rec-arrow-right{
+            width: 30px !important;
+            height: 30px !important;
+            min-width: 30px !important;
+            min-height: 30px !important;
+            max-width: 30px !important;
+            max-height: 30px !important;
+            font-size: 20px !important;
+        }
+        .slider-item{
+            width: 98.5%;
+        }
+    }
+}
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(6px);
+      transform: translateX(6px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+}
+@keyframes hvr-icon-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(6px);
+      transform: translateX(6px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+}
+ .slider2 .slider-item:hover a svg{
+    -webkit-animation-name: hvr-icon-wobble-horizontal;
+    animation-name: hvr-icon-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}

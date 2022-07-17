@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Poppins-semiBold";
+    src: url("../../assets/Fonts/Poppins/Poppins-SemiBold.woff");
+    }
+
+@font-face {
+    font-family: "Poppins-medium";
+    src: url("../../assets/Fonts/Poppins/Poppins-Medium.woff");
+    }
+
+@font-face {
+    font-family: "Poppins-regular";
+    src: url("../../assets/Fonts/Poppins/Poppins-Regular.woff");
+    }
+
+.toolbar2{
+    width:100%;
+    margin: 1% 0;
+    padding: 0 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .toolbar2-content{
+        width: fit-content;
+        
+        h6{
+            font-family: 'Poppins-regular';
+            font-size:17px;
+            font-weight: normal;
+        }
+
+        p{
+            font-family: 'Poppins-regular';
+            font-size:15px;
+        }
+    }
+
+    .toolbar2-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:fit-content;
+
+        .btn-newfolder{
+            width: 270px;
+            border: 1px solid #E1E1E1;
+            border-radius: 30px;
+            padding: 15px 0;
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            svg{
+                color: #067DF3;
+                font-size: 27px;
+                margin-right: 7.5px;
+            }
+
+            p{
+                font-family: 'Poppins-regular';
+                font-size:16px;
+            }
+
+            &:hover{
+                background: #e6f2fe;
+            }
+        }
+
+        .btn-newsites{
+            width: 270px;
+            border: 1px solid #E1E1E1;
+            border-radius: 30px;
+            padding: 15px 0;
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            svg{
+                color: #067DF3;
+                font-size: 27px;
+                margin-right: 7.5px;
+            }
+
+            p{
+                font-family: 'Poppins-regular';
+                font-size:16px;
+            }
+
+            &:hover{
+                background: #e6f2fe;
+            }
+        }
+    }
+}
+
+@media(max-width:1120px){
+    .toolbar2{
+        padding: 0 1%;
+        align-items: flex-start;
+    
+        .toolbar2-content{
+            width: fit-content;
+            
+            h6{
+                font-size:17px;
+            }
+    
+            p{
+                font-size:15px;
+            }
+        }
+    
+        .toolbar2-btn{
+            flex-direction: column;
+    
+            .btn-newfolder{
+                margin: 1%;
+            }
+    
+            .btn-newsites{
+                margin: 1%;
+            }
+        }
+    }
+}
+
+@media(max-width:820px){
+    .toolbar2{
+        padding: 0 1%;
+        flex-direction: column;
+        align-items: center;
+    
+        .toolbar2-content{
+            width: fit-content;
+            margin-bottom: 5%;
+            
+            h6{
+                font-size:17px;
+            }
+    
+            p{
+                font-size:15px;
+            }
+        }
+    
+        .toolbar2-btn{
+            flex-direction: column;
+    
+            .btn-newfolder{
+                margin: 1%;
+            }
+    
+            .btn-newsites{
+                margin: 1%;
+            }
+        }
+    }
+}
+
+@media(max-width:380px){
+    .toolbar2{
+        padding: 0 1%;
+        flex-direction: column;
+        align-items: center;
+    
+        .toolbar2-content{
+            width: fit-content;
+            margin-bottom: 5%;
+            max-width: 90%;
+            
+            h6{
+                font-size:15px;
+            }
+    
+            p{
+                font-size:13px;
+            }
+        }
+    
+        .toolbar2-btn{
+            flex-direction: column;
+            
+            .btn-newfolder{
+                margin: 1%;
+                width: 180px;
+
+                svg{
+                    font-size: 24px;
+                }
+    
+                p{
+                    font-size:15px;
+                }
+
+            }
+    
+            .btn-newsites{
+                margin: 1%;
+                width: 180px;
+
+                svg{
+                    font-size: 24px;
+                }
+    
+                p{
+                    font-size:15px;
+                }
+
+            }
+        }
+    }
+}

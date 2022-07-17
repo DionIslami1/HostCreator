@@ -1,0 +1,197 @@
+.portfolio-page{
+    overflow:hidden;
+}
+
+.portfolio-page .banner{
+    width:100%;
+    margin: 7.5% 0 5% 0;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38%;
+
+        h6{
+            font-size: 29px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 3%;
+        }
+        p{
+            font-size: 22.3px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 3%;
+        }
+
+        .banner-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+    .banner-img{
+        content: url(../../../../assets//images//Portfolio/Portfolio-banner-img.png);
+        width: 55%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1430px) {
+    .portfolio-page .banner{
+        margin: 7.5% 0 5% 0;
+        padding: 0% 2.5%;
+    
+        .banner-content{
+            width: 38%;
+    
+            h6{
+                font-size: 27px;
+            }
+            p{
+                font-size: 20.3px;
+            }
+    
+            .banner-btn{
+                width: 170px;
+                padding: 15px 0px;
+                font-size: 16px;
+            }
+        }
+        .banner-img{
+            width: 55%;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .portfolio-page .banner{
+        margin: 12% 0 5% 0;
+        padding: 0% 2.5%;
+    
+        .banner-content{
+            width: 50%;
+            padding: 1%;
+    
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18.3px;
+            }
+    
+            .banner-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+            }
+        }
+        .banner-img{
+            width: 55%;
+        }
+    }
+}
+
+@media (max-width:809px){
+
+    .portfolio-page .banner{
+        margin: 15% 0 5% 0;
+        padding: 0% 5%;
+        flex-direction: column;
+
+        .banner-content{
+            width: 100%;
+
+            h6{
+                font-size: 29px;
+                text-align:center;
+            }
+            p{
+                font-size: 22.3px;
+                text-align:center;
+            }
+
+            .banner-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+                margin: 0 auto;
+            
+            }
+        }
+        .banner-img{
+            width: 100% !important;
+        }
+    }
+}
+
+@media (max-width:600px){
+    
+    .portfolio-page .banner{
+        margin: 20% 0 5% 0;
+        padding: 0% 2.5%;
+
+        .banner-content{
+            width: 100%;
+
+            h6{
+                font-size: 26px;
+            }
+            p{
+                font-size: 19.3px;
+            }
+
+            .banner-btn{
+                width: 160px;
+                padding: 12.5px 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:400px){
+    
+    .portfolio-page .banner{
+        margin: 30% 0 5% 0;
+        padding: 0% 2.5%;
+
+        .banner-content{
+            width: 100%;
+
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18.3px;
+            }
+
+            .banner-btn{
+                width: 140px;
+                padding: 10px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}

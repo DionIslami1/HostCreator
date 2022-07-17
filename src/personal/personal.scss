@@ -1,0 +1,12 @@
+.shared-personal-dashboard{
+    display: flex;
+    overflow:hidden;    
+}
+
+.shared-right-dashboard{
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    margin:0 auto;
+    overflow:auto; 
+}

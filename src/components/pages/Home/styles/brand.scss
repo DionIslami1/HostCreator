@@ -1,0 +1,1570 @@
+@font-face {
+    font-family: 'Tempus Sans ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tempus Sans ITC'), url('../../../../assets/Fonts/Tempus-Sans-ITC/TEMPSITC.TTF') format('ttf');
+    }
+
+    @font-face {
+        font-family: 'Snap ITC';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Snap ITC'), url('../../../../assets/Fonts/Snap-ITC/design.graffiti.SNAP____.ttf') format('ttf');
+        }
+
+        @font-face {
+            font-family: 'Symbol Regular';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Symbol Regular'), url('../../../../assets/Fonts/SymbolRegular/Symbol\ Regular.ttf') format('ttf');
+            }
+
+.home-page .brand{
+    width: 100%;
+    height: 500px;
+    padding: 0 0 0 5%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    
+
+    .brand-content{
+        width: 45%;
+        position: absolute;
+        top: 14%;
+
+        
+        .brand-body{
+            width: 100%;
+            background: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 1px;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+
+            .brand-header{
+                width: 100%;
+                height:30px;
+                position: absolute;
+                padding:0;
+                background: #F9F9F9;
+                border-radius: 7px 7px 0 0;
+            }
+            .brand-right{
+                width: 40%;
+                height: 155px;
+                margin: 15% 8% 2% 0%;
+                position: relative;
+
+                h6{
+                        
+                    font-weight: 400;
+                    font-size: 21px;
+                    margin-bottom: 10%;
+                    font-family: 'TT-Norms';
+                    
+                }
+
+                .btn-tittle{
+                    h6{
+                        
+                        font-weight: 400;
+                        font-size: 21px;
+                        margin-bottom: 10%;
+                        font-family: 'TT-Norms';
+                        
+                    }
+                }
+
+                .btn-tittle1{
+                    h6{
+                        
+                        font-weight: 400;
+                        font-size: 21px;
+                        margin-bottom: 10%;
+                        font-family: 'Symbol Regular';
+                        
+                    }
+                }
+
+                .btn-tittle2{
+                    h6{
+                        
+                        font-weight: 400;
+                        font-size: 21px;
+                        margin-bottom: 10%;
+                        font-family: 'Tempus Sans ITC';
+                        
+                    }
+                }
+
+                .btn-tittle3{
+                    h6{
+                        
+                        font-weight: 400;
+                        font-size: 21px;
+                        margin-bottom: 10%;
+                        font-family: 'Snap ITC';
+                        
+                    }
+                }
+                .brand-hr1{
+                    background: #EEE;
+                    border: 2px solid #EEE; 
+                    border-radius: 20px;
+                    width: 90%;
+                    margin: 5% 0;
+                }
+
+                .brand-hr2{
+                    background: #EEE;
+                    border: 2px solid #EEE; 
+                    border-radius: 20px;
+                    width: 85%;
+                    margin: 5% 0;
+                }
+
+                .brand-hr3{
+                    background: #EEE;
+                    border: 2px solid #EEE; 
+                    border-radius: 20px;
+                    width: 80%;
+                    margin: 5% 0;
+                }
+
+                .brand-hr4{
+                    background: #EEE;
+                    border: 2px solid #EEE; 
+                    border-radius: 20px;
+                    width: 75%;
+                    margin: 5% 0;
+                }
+
+                .brand-hr5{
+                    background: #EEE;
+                    border: 2px solid #EEE; 
+                    border-radius: 20px;
+                    width: 73%;
+                    margin: 5% 0;
+                }
+
+                .brand-button{
+                    background: #FFC629;
+                    width:22%;
+                    height: 13%;
+                    border-radius: 50px;
+                    margin: 7% 0;
+                }
+            }
+
+
+            .brand-rectangle{
+                width: 200px;
+                height: 195px;
+                border-radius: 5px;
+                background: #FFC629;
+                position: relative;
+                margin: 12% 2% 10% 5%;
+                .brand-img{
+                    content: url('../../../../assets/images/Home/brand-img.png');
+                    height: 130%;
+                    position: absolute;    
+                    top: -30%;
+                    left: -10%;          
+                }
+            }
+        }
+
+    }
+    .brand-back{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        margin: 0% 0 2.5% 20%;
+        border-radius: 30px 0 0 30px;
+
+        
+        .brand-back_content{
+            margin: 9% 5% 3% 45%; 
+            h6{
+                font-weight: 400;
+                font-size: 21px;
+                margin-bottom: 2.5%;
+                font-family: 'TT-Norms';
+            }
+
+            p{
+                font-size: 16px;
+                padding-right: 25%;
+                line-height: 2;
+                font-family: 'TT-Norms';
+            }
+        }
+
+        .brand-back-btn{
+            margin: 0 5% 5% 45%; 
+
+            p{
+                font-size: 16px;
+                padding-right: 25%;
+                line-height: 2;
+                font-family: 'TT-Norms';
+            }
+
+            .button {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 10px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+              }
+
+              .button1 {
+                background-color: #fff; 
+                color: black; 
+                border: 2px solid #fff;
+                position: relative;
+                
+              }
+              
+              .button1:hover {
+                border: 2px solid #FFC629;
+                .circle1{
+                    display:block;
+                }
+              }
+
+              .active-button1{
+                border: 2px solid #FFC629;
+                .circle1{
+                    display:block !important;
+                }
+              }
+
+              .btn-text{
+                  font-family: 'TT-Norms';
+              }
+              .btn-text1{
+                  font-family: 'Symbol Regular';
+              }
+              .btn-text2 {
+                  font-family: 'Tempus Sans ITC';
+              }
+              .btn-text3{
+                  font-family: 'Snap ITC';
+              }
+
+              .btn-circle1{
+                  height:20px;
+                  width:20px;
+                  border-radius:25px;
+                  background: #FFC629;
+                  position: absolute;
+                  right: -8px;
+                  bottom: -8px;
+                  .circle1{
+                    height:12px;
+                    width:12px;
+                    border-radius:25px;
+                    background: #fff;
+                    position: absolute;
+                    left: 20% !important;
+                    top: 20% !important;
+                    display: none;
+                  }
+              }
+              
+
+              .button2 {
+                background-color: #fff; 
+                color: black; 
+                border: 2px solid #fff;
+                position: relative;
+                
+              }
+              
+              .button2:hover {
+                border: 2px solid #00B9FF;
+                .circle2{
+                    display:block;
+                }
+              }
+
+              .active-button2{
+                    border: 2px solid #00B9FF;
+                    .circle2{
+                        display:block !important;
+                    }
+                }
+
+              .btn-circle2{
+                height:20px;
+                width:20px;
+                border-radius:25px;
+                background: #00B9FF;
+                position: absolute;
+                right: -8px;
+                bottom: -8px;
+                .circle2{
+                    height:12px;
+                    width:12px;
+                    border-radius:25px;
+                    background: #fff;
+                    position: absolute;
+                    // margin: 20%;
+                    left: 20%;
+                    top: 20%;
+                    display:none;
+                  }
+            }
+
+              .button3 {
+                background-color: #fff; 
+                color: black; 
+                border: 2px solid #fff;
+                position: relative;
+                
+              }
+              
+              .button3:hover {
+                border: 2px solid #FF2955;
+                .circle3{
+                    display:block
+                }
+              }
+
+              .active-button3{
+                    border: 2px solid #FF2955;
+                    .circle3{
+                        display:block !important;
+                    }
+                }
+
+              .btn-circle3{
+                height:20px;
+                width:20px;
+                border-radius:25px;
+                background: #FF2955;
+                position: absolute;
+                right: -8px;
+                bottom: -8px;
+                .circle3{
+                    height:12px;
+                    width:12px;
+                    border-radius:25px;
+                    background: #fff;
+                    position: absolute;
+                    left: 20%;
+                    top: 20%;
+                    display: none;
+                  }
+            }
+
+              .button4 {
+                background-color: #fff; 
+                color: black; 
+                border: 2px solid #fff;
+                position: relative;
+                
+              }
+              
+              .button4:hover {
+                border: 2px solid #81FF89;
+                .circle4{
+                    display:block
+                }
+              }
+
+              .active-button4{
+                border: 2px solid #81FF89;
+                .circle4{
+                    display:block !important;
+                }
+            }
+
+              .btn-circle4{
+                height:20px;
+                width:20px;
+                border-radius:25px;
+                background: #81FF89;
+                position: absolute;
+                right: -8px;
+                bottom: -8px;
+                .circle4{
+                    height:12px;
+                    width:12px;
+                    border-radius:25px;
+                    background: #fff;
+                    position: absolute;
+                    left: 20%;
+                    top: 20%;
+                    display: none;
+                  }
+            }
+
+              
+        }
+
+
+    }
+
+}
+
+@media (min-width: 1600px){
+
+    .home-page .brand{
+        .brand-content{
+            top: 13%;
+            .brand-body{
+    
+                .brand-header{
+                    height:40px;
+                }
+                .brand-right{
+                    width: 40%;
+    
+                    h6{
+                        font-size: 22px;
+                    }
+    
+                    .btn-tittle{
+                        h6{
+                            font-size: 22px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 22px;
+                            
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 22px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        .brand-back{
+    
+            .brand-back_content{
+                h6{
+                    font-size: 22px;
+                }
+    
+                p{
+                    font-size: 17px;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 45%; 
+    
+                p{
+                    font-size: 17px;
+                }
+    
+                .button {
+                    font-size: 17px;
+                  }
+            }
+        }
+    }
+}
+
+@media (min-width: 1900px){
+    .home-page .brand{
+        .brand-content{
+            top: 11.5%;
+            .brand-body{
+    
+                .brand-header{
+                    height:40px;
+                }
+                .brand-right{
+                    width: 40%;
+    
+                    h6{
+                        font-size: 23px;
+                    }
+    
+                    .btn-tittle{
+                        h6{
+                            font-size: 23px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 23px;
+                            
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 23px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+        }
+        .brand-back{
+    
+            .brand-back_content{
+                h6{
+                    font-size: 23px;
+                }
+    
+                p{
+                    font-size: 18px;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 45%; 
+    
+                p{
+                    font-size: 18px;
+                }
+    
+                .button {
+                    font-size: 18px;
+                  }
+            }
+        }
+    }
+}
+
+@media (max-width:1300px) {
+    .home-page .brand{
+            .brand-content{
+                top: 17%;
+            }
+            .brand-back{
+                .brand-back_content{
+                    h6{
+                        font-size: 21px;
+                    }
+
+                    p{
+                        font-size: 16px;
+                        padding-right: 20%;
+                    }
+                }
+
+                .brand-back-btn{
+                    margin: 0 5% 5% 45%; 
+                    p{
+                        font-size: 16px;
+                        padding-right: 20%;
+                    }
+
+                }
+            }
+    }
+}
+
+@media (max-width: 1100px) {
+    .home-page .brand{
+        height: 450px;
+        
+    
+        .brand-content{
+            width: 45%;
+            top: 14%;
+        }
+
+        .brand-right{
+
+            h6{
+                font-size: 20px;
+            }
+
+            .btn-tittle{
+                h6{
+                    font-size: 20px;
+                }
+            }
+
+            .btn-tittle1{
+                h6{
+                    font-size: 20px;
+                }
+            }
+
+            .btn-tittle2{
+                h6{
+                    font-size: 20px;
+                }
+            }
+
+            .btn-tittle3{
+                h6{
+                    font-size: 20px;
+                }
+            }
+        }
+        .brand-back{
+            .brand-back_content{
+                h6{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+    
+            .brand-back-btn{
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+    
+    
+        }
+    
+    }
+}
+
+@media (max-width: 1001px) {
+    .home-page .brand{
+        height: 400px;
+    
+        .brand-content{
+            width: 45%;
+            top: 14%;
+        }
+
+        .brand-body{
+            .brand-right{
+            width: 55% !important; 
+            margin: 15% 2.5% 2% 0% !important;
+
+                h6{
+                    font-size: 20px;
+                }
+
+                .btn-tittle{
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+
+                .btn-tittle1{
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+
+                .btn-tittle2{
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+
+                .btn-tittle3{
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+
+            
+            }
+
+        .brand-rectangle{
+            width: 175px !important;
+            height: 170px !important;
+            margin: 12% 2% 10% 5%;
+            .brand-img{
+                height: 130%;
+                top: -30%;
+                left: -10%;          
+            }
+        }
+    }
+        .brand-back{
+            .brand-back_content{
+                h6{
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+    
+            .brand-back-btn{
+    
+                p{
+                    font-size: 15px;
+                }
+            }
+    
+    
+        }
+    
+    }
+}
+
+@media (max-width: 900px) {
+    .home-page .brand{
+        height: 350px;
+        margin-bottom: 15%;
+    
+        .brand-content{
+            width: 45%;
+            top: 14%;
+        }
+
+        .brand-body{
+            .brand-right{
+            width: 50% !important; 
+            margin: 13% 2.5% 2% 0% !important;
+
+                h6{
+                    font-size: 19px;
+                }
+
+                .btn-tittle{
+                    h6{
+                        font-size: 19px;
+                    }
+                }
+
+                .btn-tittle1{
+                    h6{
+                        font-size: 19px;
+                    }
+                }
+
+                .btn-tittle2{
+                    h6{
+                        font-size: 19px;
+                    }
+                }
+
+                .btn-tittle3{
+                    h6{
+                        font-size: 19px;
+                    }
+                }
+
+            
+            }
+
+        .brand-rectangle{
+            width: 155px !important;
+            height: 150px !important;
+            margin: 12% 2% 10% 5%;
+            .brand-img{
+                height: 130%;
+                top: -30%;
+                left: -10%;          
+            }
+        }
+    }
+        .brand-back{
+            .brand-back_content{
+                h6{
+                    font-size: 19px;
+                }
+    
+                p{
+                    font-size: 14px;
+                    padding:0;
+                }
+            }
+    
+            .brand-back-btn{
+    
+                p{
+                    font-size: 14px;
+                    padding:0;
+                }
+
+                .button {
+                    padding: 10px 15px !important;
+                    font-size: 15px;
+                  }
+
+                  .btn-circle1{
+                      height:17px;
+                      width:17px;
+                      .circle1{
+                        height:10px;
+                        width:10px;
+                      }
+                  }
+                  .btn-circle2{
+                    height:17px;
+                    width:17px;
+                    .circle2{
+                        height:10px;
+                        width:10px;
+                      }
+                }
+    
+                  .btn-circle3{
+                    height:17px;
+                    width:17px;
+                    .circle3{
+                        height:10px;
+                        width:10px;
+                      }
+                }
+                  .btn-circle4{
+                    height:17px;
+                    width:17px;
+                    .circle4{
+                        height:10px;
+                        width:10px;
+                      }
+                }
+
+                
+            }
+    
+    
+        }
+    
+    }
+}
+
+@media (max-width:809px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 650px;
+        .brand-content{
+            width: 63%;
+            margin: 30% 27%;
+            .brand-body{
+    
+               
+                .brand-right{
+                    width: 50%;
+                    height: 155px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 200px;
+                    height: 185px;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            width: 100%;
+            height: 100%;
+            
+            .brand-back_content{
+                margin: 9% 5% 3% 10%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 21px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 16px;
+                    padding-right: 0%;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 10%; 
+    
+                p{
+                    font-size: 16px;
+                    padding-right: 0%;
+                }
+    
+                .button {
+                    padding: 15px 20px;
+                    margin: 4px 10px;
+                  }
+    
+                
+    
+                  .btn-text{
+                      font-size: 16px;
+                  }
+    
+                  .btn-circle1{
+                      height:20px;
+                      width:20px;
+                      .circle1{
+                        height:12px;
+                        width:12px;
+                      }
+                  }
+                  
+    
+                  
+    
+                  .btn-circle2{
+                    height:20px;
+                    width:20px;
+                    .circle2{
+                        height:12px;
+                        width:12px;
+                      }
+                }
+    
+                  
+                  .btn-circle3{
+                    height:20px;
+                    width:20px;
+                    .circle3{
+                        height:12px;
+                        width:12px;
+                      }
+                }
+    
+    
+                  .btn-circle4{
+                    height:20px;
+                    width:20px;
+                    .circle4{
+                        height:12px;
+                        width:12px;
+                      }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:666px){
+    .home-page .brand{
+        .brand-content{
+            margin: 40% 27%;
+        }
+    }
+}
+
+
+@media (max-width:588px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 600px;
+        .brand-content{
+            width: 63%;
+            margin: 40% 27%;
+            .brand-body{
+    
+               
+                .brand-right{
+                    width: 50%;
+                    height: 125px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+
+                    h6{
+                        font-size: 19px;
+                    }
+
+                    .btn-tittle{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 140px !important;
+                    height: 135px !important;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            
+            .brand-back_content{
+                margin: 9% 5% 3% 10%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 19px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    padding-right: 0%;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 10%; 
+    
+                p{
+                    font-size: 14px;
+                    padding-right: 0%;
+                }
+    
+                .button {
+                    padding: 15px 20px;
+                    margin: 4px 10px;
+                  }
+    
+                
+    
+                  .btn-text{
+                      font-size: 15px;
+                  }
+    
+            }
+        }
+    }
+}
+
+@media (max-width:503px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 650px;
+        padding-left: 0px;
+        .brand-content{
+            width: 85%;
+            margin: 55% 10%;
+            .brand-body{
+    
+                .brand-right{
+                    width: 50%;
+                    height: 125px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+
+                    h6{
+                        font-size: 21px;
+                    }
+
+                    .btn-tittle{
+                        h6{
+                            font-size: 21px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 21px;
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 21px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 21px;
+                        }
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 140px !important;
+                    height: 135px !important;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            margin: 0% 0 2.5% 0%;
+            .brand-back_content{
+                margin: 10% 5% 3% 10%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 21px;
+                    margin-bottom: 2.5%;
+                    text-align: center;
+                }
+    
+                p{
+                    font-size: 16px;
+                    padding-right: 0%;
+                    text-align: center;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 10%; 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 16px;
+                    padding-right: 0%;
+                    text-align: center;
+                }
+                .brand-buttons{
+                    display: flex;
+                .button {
+                    padding: 15px 20px;
+                    margin: 4px 10px;
+                  }
+                  
+                  .btn-text{
+                      font-size: 16px;
+                  }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:440px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 600px;
+        .brand-content{
+            width: 85%;
+            margin: 60% 10%;
+            .brand-body{
+    
+                .brand-right{
+                    width: 50%;
+                    height: 105px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+
+                    h6{
+                        font-size: 19px;
+                    }
+
+                    .btn-tittle{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 19px;
+                        }
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 120px !important;
+                    height: 115px !important;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            margin: 0% 0 2.5% 0%;
+            .brand-back_content{
+                margin: 10% 5% 3% 10%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 19px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 15px;
+                    padding-right: 0%;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 0 5% 5% 10%; 
+    
+                p{
+                    font-size: 15px;
+                    padding-right: 0%;
+                }
+    
+                .button {
+                    padding: 15px 20px;
+                    margin: 4px 10px;
+                  }
+    
+                
+    
+                  .btn-text{
+                      font-size: 15px;
+                  }
+    
+            }
+        }
+    }
+}
+
+@media (max-width:400px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 500px;
+        .brand-content{
+            width: 90%;
+            margin: 65% 5%;
+            padding: 0 2.5%;
+            .brand-body{
+    
+                .brand-right{
+                    width: 50%;
+                    height: 105px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+
+                    h6{
+                        font-size: 17px;
+                    }
+
+                    .btn-tittle{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 110px !important;
+                    height: 105px !important;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            margin: 0% 0 2.5% 0%;
+            .brand-back_content{
+                margin: 10% 2% 3% 2%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 17px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    padding-right: 0%;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 5% 0% 3% 2%; 
+                p{
+                    font-size: 14px;
+                    padding:0;
+                }
+
+                .button {
+                    padding: 7.5px 13px !important;
+                    font-size: 14px;
+                  }
+
+                  .btn-circle1{
+                      height:16px;
+                      width:16px;
+                      .circle1{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                  }
+                  .btn-circle2{
+                    height:16px;
+                    width:16px;
+                    .circle2{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+    
+                  .btn-circle3{
+                    height:16px;
+                    width:16px;
+                    .circle3{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+                  .btn-circle4{
+                    height:16px;
+                    width:16px;
+                    .circle4{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media (max-width:341px){
+
+    .home-page .brand{
+        width: 100%;
+        height: 500px;
+        .brand-content{
+            width: 90%;
+            margin: 65% 5%;
+            padding: 0 2.5%;
+            .brand-body{
+                margin-top:4vh;
+    
+                .brand-right{
+                    width: 50%;
+                    height: 105px;
+                    margin: 15% 0% 2% 0%;
+                    .brand-button{
+                        width:30%;
+                    }
+
+                    h6{
+                        font-size: 17px;
+                    }
+
+                    .btn-tittle{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle1{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle2{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .btn-tittle3{
+                        h6{
+                            font-size: 17px;
+                        }
+                    }
+                }
+    
+    
+                .brand-rectangle{
+                    width: 110px !important;
+                    height: 105px !important;
+                    margin: 12% 2% 10% 5%;
+                    .brand-img{
+                        height: 130%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .brand-back{
+            margin: 0% 0 2.5% 0%;
+            .brand-back_content{
+                margin: 10% 2% 3% 2%; 
+                padding-right: 0%;
+                h6{
+                    font-size: 17px;
+                    margin-bottom: 2.5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    padding-right: 0%;
+                }
+            }
+    
+            .brand-back-btn{
+                margin: 5% 0% 3% 2%; 
+                p{
+                    font-size: 14px;
+                    padding:0;
+                }
+
+                .button {
+                    padding: 7.5px 13px !important;
+                    font-size: 14px;
+                  }
+
+                  .btn-circle1{
+                      height:16px;
+                      width:16px;
+                      .circle1{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                  }
+                  .btn-circle2{
+                    height:16px;
+                    width:16px;
+                    .circle2{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+    
+                  .btn-circle3{
+                    height:16px;
+                    width:16px;
+                    .circle3{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+                  .btn-circle4{
+                    height:16px;
+                    width:16px;
+                    .circle4{
+                        height:10px;
+                        width:10px;
+                        left: 20%;
+                        top: 17%;
+                      }
+                }
+
+                
+            }
+        }
+    }
+}
+
+

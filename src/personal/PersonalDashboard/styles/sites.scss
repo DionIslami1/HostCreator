@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Poppins-semiBold";
+    src: url("../../../assets/Fonts/Poppins/Poppins-SemiBold.woff");
+    }
+
+@font-face {
+    font-family: "Poppins-medium";
+    src: url("../../../assets/Fonts/Poppins/Poppins-Medium.woff");
+    }
+
+@font-face {
+    font-family: "Poppins-regular";
+    src: url("../../../assets/Fonts/Poppins/Poppins-Regular.woff");
+    }
+
+.sites{
+    width: 100%;
+    border: 1px solid navy;
+    padding: 0 5%;
+   
+    .sites-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .content{
+            border: 1px solid green;
+            width: fit-content;
+            p{
+                font-family: 'Poppins-regular';
+                font-size: 17px;
+            }
+        }
+
+        .header-btn{
+            border: 1px solid blue;
+            display:flex;
+
+            .header-sort{
+                border: 1px solid purple;
+                display:flex;
+                align-items: center;
+                width: 315px;
+                p{
+                    font-family:"Poppins-regular";
+                    font-size: 15px;
+                }
+                .sort-btn{
+                    width: 220px;
+                    border: 1px solid #E1E1E1;
+                    border-radius: 30px;
+                    padding: 10px 12.5px;
+                    margin: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #5E5E5E;
+                    }
+
+                    svg{
+                        color: #111;
+                        font-size: 25px;
+                        margin-right: 7.5px;
+                    }
+
+                    p{
+                        font-family: 'Poppins-regular';
+                        font-size:15px;
+                    }
+
+                    &:hover{
+                        background: #e6f2fe;
+                    }
+                }
+            }
+
+            .header-view{
+                border: 1px solid yellow;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                width: 315px;
+                p{
+                    font-family:"Poppins-regular";
+                    font-size: 15px;
+                }
+                .view-btn{
+                    width: 220px;
+                    border: 1px solid #E1E1E1;
+                    border-radius: 30px;
+                    padding: 10px 12.5px;
+                    margin: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #5E5E5E;
+                    }
+
+                    svg{
+                        color: #111;
+                        font-size: 25px;
+                        margin-right: 7.5px;
+                    }
+
+                    p{
+                        font-family: 'Poppins-regular';
+                        font-size:15px;
+                    }
+
+                    &:hover{
+                        background: #e6f2fe;
+                    }
+                }
+            }
+            .header-tab-btn{
+                width:100px;
+                height:50px;
+                border-radius: 30px;
+                padding: 10px 0px;
+                margin: 5% 0;
+                border: 1px solid #E2E2E2;
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                padding: 10px 5px;
+                position: relative;
+                .circle{
+                    border: 1px solid red;
+                    border-radius: 50px;
+                    position: absolute;
+                    height:100%;
+                    width:50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    left: 0;
+                    cursor: pointer;
+                    &:hover{
+                        background:#067DF3;
+                        color: #fff;
+                    }
+                    svg{
+                        font-size: 23px;
+                    }
+                }
+
+                .circle1{
+                    border: 1px solid red;
+                    border-radius: 50px;
+                    position: absolute;
+                    height:100%;
+                    width:50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    right: 0;
+                    cursor: pointer;
+                    &:hover{
+                        background:#067DF3;
+                        color: #fff;
+                    }
+                    svg{
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    }
+
+}

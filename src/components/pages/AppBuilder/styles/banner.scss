@@ -1,0 +1,284 @@
+.appbuilder-page{
+    overflow:hidden;
+}
+
+.appbuilder-page .banner{
+    width:100%;
+    margin: 7.5% 0 5% 0;
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38%;
+
+        h6{
+            font-size: 29px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 3%;
+        }
+        p{
+            font-size: 22.3px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 3%;
+        }
+
+        .banner-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+
+    .banner-main-img{
+        content: url(../../../../assets/images/AppBuilder/AppBuilder-Banner-img.png);
+        width: 45%;
+        height: auto;
+        margin-right: 5%;
+    }
+
+    .banner-back{
+        width: 50%;
+        height: 87%;
+        background: linear-gradient(#FFE1FD, #FFEDFE,#FFF2FF,#FFF8FF,  #FFF8FF);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 25px 0 0 25px;
+        z-index: -1;
+    }
+}
+
+@media (max-width:1430px) {
+    .appbuilder-page .banner{
+        padding: 0% 2.5%;
+    
+        .banner-content{
+            margin-left: 0px;
+            width: 45%;
+    
+            h6{
+                font-size: 27px;
+                margin-bottom: 3%;
+            }
+            p{
+                font-size: 20.3px;
+                margin-bottom: 3%;
+            }
+    
+            .banner-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 16px;
+            }
+        }
+    
+        .banner-main-img{
+            width: 45%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width:960px) {
+    .appbuilder-page .banner{
+        margin: 15% 0 5% 0;
+        .banner-content{
+            width: 50%;
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18.3px;
+            }
+    
+            .banner-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+            }
+        }
+    
+        .banner-main-img{
+            width: 45%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width:809px) {
+    .appbuilder-page .banner{
+        margin: 15% 0 5% 0;
+        padding: 0% 5%;
+        flex-direction: column;
+    
+        .banner-content{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            width: 100%;
+            h6{
+                font-size: 29px;
+                text-align:center;
+            }
+            p{
+                font-size: 22.3px;
+                text-align:center;
+
+            }
+    
+            .banner-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+            }
+        }
+    
+        .banner-main-img{
+            width: 90%;
+            height: auto;
+        }
+    
+        .banner-back{
+            width: 100%;
+            height: 60%;
+        }
+    }
+}
+
+@media (max-width:610px) {
+    .appbuilder-page .banner{
+        margin: 20% 0 5% 0;
+        padding: 0% 2.5%;
+        flex-direction: column;
+    
+        .banner-content{
+            h6{
+                font-size: 27px;
+                text-align:center;
+            }
+            p{
+                font-size: 20.3px;
+                text-align:center;
+
+            }
+    
+            .banner-btn{
+                width: 160px;
+                padding: 12.5px 0px;
+                font-size: 16px;
+            }
+        }
+    
+        .banner-main-img{
+            width: 100%;
+            height: auto;
+        }
+    
+        .banner-back{
+            width: 100%;
+            height: 60%;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .appbuilder-page .banner{
+        margin: 20% 0 5% 0;
+        padding: 0% 2.5%;
+    
+        .banner-content{
+            h6{
+                font-size: 26px;
+            }
+            p{
+                font-size: 19.3px;
+            }
+    
+            .banner-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 15px;
+            }
+        }
+    
+        .banner-back{
+            width: 100%;
+            height: 52%;
+        }
+    }
+}
+
+@media (max-width:380px) {
+    .appbuilder-page .banner{
+        margin: 25% 0 5% 0;
+        padding: 0% 1%;
+    
+        .banner-content{
+            h6{
+                font-size: 24px;
+            }
+            p{
+                font-size: 17.3px;
+            }
+    
+            .banner-btn{
+                width: 140px;
+                padding: 10px 0px;
+                font-size: 13px;
+            }
+        }
+    
+        .banner-back{
+            width: 100%;
+            height: 52%;
+        }
+    }
+}
+
+@media (max-width:330px) {
+    .appbuilder-page .banner{
+        margin: 30% 0 5% 0;
+        padding: 0% 1%;
+    
+        .banner-content{
+            h6{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16.3px;
+            }
+    
+           
+        }
+    
+        .banner-back{
+            width: 100%;
+            height: 48%;
+        }
+    }
+}

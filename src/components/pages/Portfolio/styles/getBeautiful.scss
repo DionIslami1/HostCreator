@@ -1,0 +1,208 @@
+.portfolio-page .get-beautiful{
+    width: 100%;
+    margin: 5% 0;
+    padding: 0 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .get-beautiful-back{
+        width: 49%;
+        height: 80%;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        position: absolute;
+        top: auto;
+        left: 0;
+        border-radius: 0px 25px 25px 0px;
+        z-index: -1;
+    }
+
+    .get-beautiful-img{
+        content: url(../../../../assets/images/Portfolio/get-beautiful-img.png);
+        width: 50%;
+        height: auto;
+    }
+
+    .get-beautiful-content{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 0 auto;
+
+        h6{
+            font-size: 27px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 2.5%;
+        }
+        p{
+            font-size: 19px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 2.5%;
+        }
+
+        .get-beautiful-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1430px){
+    .portfolio-page .get-beautiful{
+        .get-beautiful-img{
+            width: 50%;
+        }
+    
+        .get-beautiful-content{
+            width: 40%;
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 17px;
+            }
+    
+            .get-beautiful-btn{
+                width: 170px;
+                padding: 15px 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px){
+    .portfolio-page .get-beautiful{
+        .get-beautiful-img{
+            width: 50%;
+        }
+    
+        .get-beautiful-content{
+            width: 40%;
+            h6{
+                font-size: 23px;
+            }
+            p{
+                font-size: 15px;
+            }
+    
+            .get-beautiful-btn{
+                width: 160px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width:809px) {
+    .portfolio-page .get-beautiful{
+        flex-direction: column-reverse;
+        .get-beautiful-back{
+            width: 100%;
+            height: 63%;
+            bottom: 0;
+        }
+    
+        .get-beautiful-img{
+            width: 100%;
+        }
+    
+        .get-beautiful-content{
+            width: 90%;
+            margin: 5% auto 15% auto;
+    
+            h6{
+                font-size: 27px;
+            }
+            p{
+                font-size: 19px;
+            }
+    
+            .get-beautiful-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .portfolio-page .get-beautiful{
+        padding: 0 2.5%;
+        .get-beautiful-back{
+            width: 100%;
+            height: 60%;
+        }
+        .get-beautiful-content{
+            width: 100%;
+            margin: 5% auto 15% auto;
+    
+            h6{
+                font-size: 25px;
+                text-align:center;
+            }
+            p{
+                font-size: 17px;
+                text-align:center;
+            }
+    
+            .get-beautiful-btn{
+                width: 170px;
+                padding: 15px 0px;
+                font-size: 16px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media(max-width:400px) {
+    .portfolio-page .get-beautiful{
+        padding: 0 2.5%;
+        .get-beautiful-back{
+            width: 100%;
+            height: 50%;
+        }
+        .get-beautiful-content{
+            width: 100%;
+            margin: 5% auto 20% auto;
+    
+            h6{
+                font-size: 23px;
+                text-align:center;
+            }
+            p{
+                font-size: 15px;
+                text-align:center;
+            }
+    
+            .get-beautiful-btn{
+                width: 155px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

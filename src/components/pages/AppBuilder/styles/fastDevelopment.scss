@@ -1,0 +1,245 @@
+.appbuilder-page .fast-development{
+    width: 100%;
+    margin: 5% 0;
+    padding: 0 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fast-development-back{
+        width: 50%;
+        height: 70%;
+        background: linear-gradient(#FBFFFF, #F7FEFF,  #F1FDFF, #EEFCFF, #EBFCFF, #E5FCFF);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0px 25px 25px 0px;
+        z-index: -1;
+    }
+
+    .fast-development-img{
+        content: url(../../../../assets/images/AppBuilder/fast-developer-img.png);
+        width: 50%;
+        height: auto; 
+    }
+
+    .fast-development-content{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 0 auto;
+
+        h6{
+            font-size: 27px;
+            font-family: 'TT-Norms';
+            font-weight: normal;
+            margin-bottom: 2.5%;
+        }
+        p{
+            font-size: 19px;
+            font-family: 'TT-Norms';
+            line-height: 2;
+            margin-bottom: 2.5%;
+        }
+        .fast-development-btn{
+            width: 180px;
+            border-radius: 10px;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-family: 'TT-Norms';
+            background-color: #416AFF;
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover{
+                border: 1px solid #ccc;
+                color: #111;
+                background: none;
+            }
+        }
+    }
+}
+
+@media (max-width:1430px) {
+    .appbuilder-page .fast-development{
+        padding: 0 2.5%;
+
+        .fast-development-back{
+            width: 55%;
+            height: 70%;
+        }
+    
+        .fast-development-img{
+            width: 55%;
+            height: auto;
+        }
+    
+        .fast-development-content{
+            width: 40%;
+            h6{
+                font-size: 25px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .fast-development-btn{
+                width: 170px;
+                padding: 12.5px 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:1050px) {
+    .appbuilder-page .fast-development{
+        padding: 0 2.5%;
+
+        .fast-development-back{
+            width: 55%;
+            height: 70%;
+        }
+    
+        .fast-development-img{
+            width: 55%;
+            height: auto;
+        }
+    
+        .fast-development-content{
+            width: 40%;
+            margin: 0 auto;
+            h6{
+                font-size: 23px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .fast-development-btn{
+                width: 150px;
+                padding: 12.5px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width:809px) {
+    .appbuilder-page .fast-development{
+        flex-direction: column-reverse;
+        .fast-development-back{
+            width: 100%;
+            height: 50%;
+            bottom: 0;
+            left: 0;
+        }
+    
+        .fast-development-img{
+            width: 100%;
+            height: auto;
+        }
+    
+        .fast-development-content{
+            width: 90%;
+            margin: 5% auto;
+    
+            h6{
+                font-size: 27px;
+            }
+            p{
+                font-size: 19px;
+            }
+            .fast-development-btn{
+                width: 180px;
+                padding: 15px 0px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .appbuilder-page .fast-development{
+        flex-direction: column-reverse;
+        .fast-development-back{
+            width: 100%;
+            height: 50%;
+        }
+    
+        .fast-development-img{
+            width: 100%;
+            height: auto;
+        }
+    
+        .fast-development-content{
+            width: 100%;
+            margin: 5% auto;
+    
+            h6{
+                font-size: 25px;
+                text-align:center;
+            }
+            p{
+                font-size: 17px;
+                text-align:center;
+            }
+            .fast-development-btn{
+                width: 160px;
+                padding: 12.5px 0px;
+                font-size: 16px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width:430px) {
+    .appbuilder-page .fast-development{
+        flex-direction: column-reverse;
+        .fast-development-back{
+            width: 100%;
+            height: 50%;
+        }
+    
+        .fast-development-content{
+            h6{
+                font-size: 23px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .fast-development-btn{
+                width: 150px;
+                padding: 10px 0px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width:430px) {
+    .appbuilder-page .fast-development{
+        .fast-development-back{
+            width: 100%;
+            height: 50%;
+        }
+    
+        .fast-development-content{
+            margin-bottom: 20%;
+            h6{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .fast-development-btn{
+                width: 150px;
+                padding: 10px 0px;
+                font-size: 13px;
+            }
+        }
+    }
+}
